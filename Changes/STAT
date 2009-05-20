@@ -1,0 +1,13 @@
+15-03-2009
+
+Changes:
+
+Add : beli.php, jual.php, country.php+country table
+
+beli.php
+
+add customer
+	customer - get number automatic
+	customer - get country from table
+
+while get currency - check it's mean price (x)

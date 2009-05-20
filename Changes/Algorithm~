@@ -1,0 +1,36 @@
+Buy / Sell Flow
+
+Buy:
+* Collect customer info:
+	if exist then select from table
+	else
+	add customer
+
+	select customer
+
+* select currency
+	select from currency
+* select from price_x_$currency
+* input unit price
+	if unit price < price_x_$currency then warn user
+* input tax
+* input amount
+* echo TOTAL
+* input paid with
+	* cash
+	* check
+if cash
+	write cash field
+else if check
+	write check number
+	select account receiver from ACC table
+		ACC1, ACC2, ACC3, ACC4
+* input remarks
+
+* generate invoice
+
+uaccess:
+0: Super Administrator
+1: Marketing
+2: Operator
+3: Report viewer
